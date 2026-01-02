@@ -1,4 +1,4 @@
-package org.vrn7712.pomodoro.ui.onboarding
+﻿package org.vrn7712.pomodoro.ui.onboarding
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.Spring

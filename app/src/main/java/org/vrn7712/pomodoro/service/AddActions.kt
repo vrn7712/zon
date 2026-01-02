@@ -1,5 +1,5 @@
-/*
- * Copyright (c) 2025 Vrushal
+﻿/*
+ * Copyright (c) 2025 Nishant Mishra
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.

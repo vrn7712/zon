@@ -1,4 +1,4 @@
-package org.vrn7712.pomodoro
+﻿package org.vrn7712.pomodoro
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

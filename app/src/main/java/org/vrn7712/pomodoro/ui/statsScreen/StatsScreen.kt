@@ -1,5 +1,6 @@
-/*
+﻿/*
  * Copyright (c) 2025 Nishant Mishra
+ * Copyright (c) 2025-2026 Vrushal (modifications)
  *
  * This file is part of Zon (forked from Tomato) - a minimalist pomodoro timer for Android.
  *

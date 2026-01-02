@@ -1,4 +1,4 @@
-package org.vrn7712.pomodoro.ui.settingsScreen.components
+﻿package org.vrn7712.pomodoro.ui.settingsScreen.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer

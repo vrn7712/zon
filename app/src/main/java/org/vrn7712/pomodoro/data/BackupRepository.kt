@@ -1,4 +1,4 @@
-package org.vrn7712.pomodoro.data
+﻿package org.vrn7712.pomodoro.data
 
 import android.content.Context
 import android.net.Uri

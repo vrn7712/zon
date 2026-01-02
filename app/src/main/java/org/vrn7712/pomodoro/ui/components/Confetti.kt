@@ -1,4 +1,4 @@
-package org.vrn7712.pomodoro.ui.components
+﻿package org.vrn7712.pomodoro.ui.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxSize

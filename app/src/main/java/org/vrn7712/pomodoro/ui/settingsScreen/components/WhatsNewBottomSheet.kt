@@ -1,5 +1,6 @@
-/*
- * Copyright (c) 2025 Vrushal
+﻿/*
+ * Copyright (c) 2025 Nishant Mishra
+ * Copyright (c) 2025-2026 Vrushal (modifications)
  *
  * This file is part of Zon - a minimalist pomodoro timer for Android.
  *
