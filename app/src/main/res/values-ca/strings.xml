@@ -25,7 +25,7 @@
     <string name="exit">Sortir</string>
     <string name="focus">Concentració</string>
     <string name="focus_per_day_avg">concentració per dia (mitjana)</string>
-    <string name="get_plus">Aconsegueix Tomato+</string>
+    <string name="get_plus">Aconsegueix Zon+</string>
         <string name="hours_and_minutes_format">%1$dh %2$dm</string>
     <string name="hours_format">%1$dh</string>
     <string name="language">Idioma</string>
@@ -67,14 +67,12 @@
     <string name="timer_session_count">%1$d de %2$d</string>
     <string name="timer_settings_reset_info">Restableix el temporitzador per canviar la configuració</string>
     <string name="today">Avui</string>
-    <string name="tomato_foss_desc">Totes les funcions estan desbloquejades en aquesta versió. Si la meva aplicació ha marcat una diferència a la teva vida, considera donar-me suport fent una donació a %1$s.</string>
     <string name="up_next">A continuació</string>
     <string name="up_next_notification">A continuació: %1$s (%2$s)</string>
     <string name="vibrate">Vibració</string>
     <string name="vibrate_desc">Vibra quan s\'acaba un temporitzador</string>
     <string name="about">Sobre</string>
         <string name="rate_on_google_play_desc">T\'ha agradat l\'aplicació? Escriu una ressenya!</string>
-        <string name="tomato_plus_desc">Personalitza\'l encara més amb Tomato+</string>
     <string name="license">Llicència</string>
     <string name="media_volume_for_alarm">Mode d\'auriculars</string>
     <string name="media_volume_for_alarm_desc">Només es reprodueix amb auriculars. Si els auriculars estan desconnectats, l\'alarma es reprodueix per l\'altaveu al volum multimèdia.</string>

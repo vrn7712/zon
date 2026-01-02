@@ -639,7 +639,8 @@ class TimerService : Service() {
     private fun setDoNotDisturb(doNotDisturb: Boolean) {
         if (_settingsState.value.dndEnabled && notificationManagerService.isNotificationPolicyAccessGranted()) {
             if (doNotDisturb) {
-                notificationManagerService.setInterruptionFilter(NotificationManager.INTERRUPTION_FILTER_ALARMS)
+                // Use PRIORITY mode to allow starred contacts (set in system DND settings) to ring through
+                notificationManagerService.setInterruptionFilter(NotificationManager.INTERRUPTION_FILTER_PRIORITY)
             } else notificationManagerService.setInterruptionFilter(NotificationManager.INTERRUPTION_FILTER_ALL)
         }
     }

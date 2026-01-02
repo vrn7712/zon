@@ -194,16 +194,6 @@ fun TasksScreenRoot(
                         LaunchedEffect(dismissState.currentValue) {
                             if (dismissState.currentValue == SwipeToDismissBoxValue.EndToStart) {
                                 viewModel.deleteTask(task)
-                                scope.launch {
-                                    val result = snackbarHostState.showSnackbar(
-                                        message = "Task deleted",
-                                        actionLabel = "Undo",
-                                        duration = SnackbarDuration.Short
-                                    )
-                                    if (result == SnackbarResult.ActionPerformed) {
-                                        viewModel.restoreTask(task)
-                                    }
-                                }
                             }
                         }
     

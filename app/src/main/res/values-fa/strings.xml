@@ -67,14 +67,12 @@
     <string name="timer_session_count">%1$d از %2$d</string>
     <string name="timer_settings_reset_info">تایمر را ریست کنید تا تنظیمات تغییر کند</string>
     <string name="today">امروز</string>
-    <string name="tomato_foss_desc">تمام ویژگی ها در این نسخه باز شده اند. اگر اپلیکیشن من در زندگی شما تأثیری داشت، لطفا با کمک مالی به میزان %1$s از من حمایت کنید.</string>
     <string name="up_next">بعدی</string>
     <string name="up_next_notification">بعدی: %1$s (%2$s)</string>
     <string name="vibrate">ویبره</string>
     <string name="vibrate_desc">ویبره در اتمام تایمر</string>
     <string name="about">درباره</string>
         <string name="rate_on_google_play_desc">اپلیکیشن را دوست داشتید؟ یک نقد بنویسید!</string>
-        <string name="tomato_plus_desc">شخصی سازی بیشتر با Tomato+</string>
     <string name="license">مجوز</string>
     <string name="media_volume_for_alarm">حالت هدفون</string>
     <string name="media_volume_for_alarm_desc">فقط با هدفون پخش می شود. اگر هدفون قطع شود، آلارم از بلندگو با حجم صدای media پخش می شود.</string>

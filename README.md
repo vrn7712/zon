@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="showcase.png" alt="Zon - Focus Timer" width="800"/>
+  <img src="showcase.png" alt="Zon - Enter Your Zone" width="800"/>
 </p>
 
 <h1 align="center">Zon</h1>
@@ -10,89 +10,165 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-green?style=flat-square&logo=android" alt="Platform"/>
-  <img src="https://img.shields.io/badge/Min%20SDK-27-blue?style=flat-square" alt="Min SDK"/>
-  <img src="https://img.shields.io/badge/License-GPL%20v3-orange?style=flat-square" alt="License"/>
+  <a href="https://github.com/vrn7712/Zon/releases/latest">
+    <img src="https://img.shields.io/github/v/release/vrn7712/Zon?style=for-the-badge&logo=github&color=blue" alt="Release"/>
+  </a>
+  <img src="https://img.shields.io/badge/Platform-Android-34A853?style=for-the-badge&logo=android&logoColor=white" alt="Platform"/>
+  <img src="https://img.shields.io/badge/Min%20SDK-27-4285F4?style=for-the-badge" alt="Min SDK"/>
+  <img src="https://img.shields.io/badge/License-GPL%20v3-EA4335?style=for-the-badge" alt="License"/>
+</p>
+
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#️-tech-stack">Tech Stack</a> •
+  <a href="#-changelog">Changelog</a>
 </p>
 
 ---
 
 ## ✨ Features
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### 🎯 Focus Timer
-- **Pomodoro Technique** - Work in focused intervals with breaks
-- **Customizable Sessions** - Set your own focus, short break, and long break durations
-- **Custom Timer Presets** - Save and switch between different timer configurations
-- **Session Counter** - Track how many focus sessions you've completed
-- **Auto-start Next Session** - Seamlessly continue your workflow
+- **Pomodoro Technique** - Work in focused intervals
+- **Customizable Sessions** - Set your own durations
+- **Timer Presets** - Save multiple configurations
+- **Auto-start** - Seamless workflow continuation
 
 ### 📊 Statistics & Analytics
-- **Daily Overview** - See today's focus time at a glance
-- **Weekly & Monthly Charts** - Visualize your productivity trends
-- **Yearly Heatmap** - GitHub-style contribution calendar for focus time
-- **Lifetime Statistics** - Track your total focus hours across all time
-- **Time-of-Day Breakdown** - Discover when you're most productive
-- **Manual Time Logging** - Add focus time you completed without the timer
+- **Daily/Weekly/Monthly Charts** - Visualize trends
+- **Yearly Heatmap** - GitHub-style calendar
+- **Time-of-Day Breakdown** - Peak productivity insights
+- **Manual Time Logging** - Add offline focus time
+
+</td>
+<td width="50%" valign="top">
 
 ### ✅ Task Management
-- **Built-in Task List** - Organize your work items
-- **Subject Categories** - Categorize tasks by subject (Math, Science, etc.)
-- **Task Progress** - Link tasks to focus sessions
+- **Built-in Task List** - Organize work items
+- **Subject Categories** - Math, Science, etc.
+- **Priority Levels** - High, Medium, Low
+- **Swipe to Delete** - Quick task removal
 
 ### 🎵 Focus Sounds
-- **Ambient Music** - Play relaxing background sounds during focus
-- **Built-in Tracks** - Cozy Lofi and Study Music included
-- **Custom Audio** - Use your own music files
-- **Media Controls** - Play, pause, skip from notification
+- **Ambient Music** - Relaxing backgrounds
+- **Built-in Tracks** - Cozy Lofi, Study Music
+- **Custom Audio** - Use your own files
+- **Media Controls** - Play/pause from notification
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📱 More Features</b></summary>
 
 ### 🔔 Notifications & Alerts
-- **Session Complete Alerts** - Know when your timer ends
-- **Customizable Alarm Sound** - Choose your preferred notification tone
-- **Vibration Feedback** - Haptic alerts for silent environments
-- **Do Not Disturb** - Automatically enable DND during focus
+- Session complete alerts with custom sounds
+- Vibration feedback for silent environments
+- Auto Do Not Disturb during focus
 
 ### 📱 Home Screen Widgets
-- **Timer Widget** - Start/stop timer from home screen
-- **Focus Stats Widget** - See today's progress at a glance
-- **Focus History Widget** - Weekly overview on your home screen
+- Timer control widget
+- Daily stats widget
+- Weekly history widget
 
 ### 🎨 Appearance
-- **Material 3 Expressive** - Beautiful, modern design language
-- **Dynamic Colors** - Adapts to your wallpaper (Android 12+)
-- **Light & Dark Themes** - Easy on the eyes, day or night
-- **AMOLED Dark Mode** - Pure black for battery savings
-- **Custom Color Schemes** - Pick your own accent colors
+- Material 3 Expressive design
+- Dynamic colors (Android 12+)
+- Light, Dark & AMOLED themes
+- Custom accent colors
 
-### ⚙️ Additional Features
-- **Always-On Display** - Timer visible with screen off
-- **Backup & Restore** - Save your data and settings
-- **Multi-language Support** - Available in 15+ languages
-- **Completely Offline** - No internet required
-- **No Ads** - Distraction-free experience
+### ⚙️ Other
+- Always-On Display support
+- Backup & Restore
+- 15+ languages
+- Completely offline, no ads
+
+</details>
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <i>Coming soon</i>
+</p>
 
 ---
 
 ## 📥 Installation
 
-### Build from Source
+### Option 1: Download APK
+Download the latest release from [GitHub Releases](https://github.com/vrn7712/Zon/releases/latest)
+
+### Option 2: Build from Source
 ```bash
+# Clone the repository
 git clone https://github.com/vrn7712/Zon.git
 cd Zon
+
+# Build the APK
 ./gradlew assembleFossDebug
 ```
 
-The APK will be at `app/build/outputs/apk/foss/debug/zon.apk`
+📦 APK location: `app/build/outputs/apk/foss/debug/zon.apk`
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Kotlin
-- **UI**: Jetpack Compose with Material 3
-- **Architecture**: MVVM with StateFlow
-- **Database**: Room
-- **Media**: Media3 ExoPlayer
-- **Widgets**: Glance AppWidget
+| Category | Technology |
+|----------|------------|
+| **Language** | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) |
+| **UI Framework** | ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white) |
+| **Design System** | ![Material 3](https://img.shields.io/badge/Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white) |
+| **Architecture** | MVVM + StateFlow |
+| **Database** | ![Room](https://img.shields.io/badge/Room-4285F4?style=flat-square&logo=android&logoColor=white) |
+| **Media Playback** | Media3 ExoPlayer |
+| **Widgets** | Glance AppWidget |
+| **Build System** | ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white) |
+
+---
+
+## 📋 Changelog
+
+### v1.0 Flow (January 2026)
+> *Initial Release*
+
+#### ✨ Features
+- Full Pomodoro timer with customizable sessions
+- Comprehensive statistics with charts and heatmaps
+- Task management with categories and priorities
+- Manual focus time logging
+- Built-in focus sounds (Cozy Lofi, Study Music)
+- Home screen widgets
+- Material 3 Expressive UI with dynamic colors
+- Backup & restore functionality
+- 15+ language translations
+
+#### 🔧 Technical
+- Migrated to Jetpack Compose
+- Room database for persistence
+- Kotlin Coroutines & Flow
+- Media3 for audio playback
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
@@ -100,10 +176,16 @@ The APK will be at `app/build/outputs/apk/foss/debug/zon.apk`
 
 This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
 
-*Based on [Tomato](https://github.com/nsh07/Tomato) by Nishant Mishra.*
+> *Based on [Tomato](https://github.com/nsh07/Tomato) by Nishant Mishra.*
 
 ---
 
 <p align="center">
   Made with ❤️ by <a href="https://github.com/vrn7712">Vrushal</a>
+</p>
+
+<p align="center">
+  <a href="https://vrn7712.github.io/zon-website/">Website</a> •
+  <a href="https://github.com/vrn7712/Zon/issues">Report Bug</a> •
+  <a href="https://github.com/vrn7712/Zon/issues">Request Feature</a>
 </p>

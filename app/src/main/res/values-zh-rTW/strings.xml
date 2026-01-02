@@ -5,7 +5,7 @@
     <string name="alarm_sound">鬧鐘聲音</string>
     <string name="always_on_display">螢幕長亮模式</string>
     <string name="always_on_display_desc">在計時畫面任意點擊以切換至螢幕長亮模式</string>
-    <string name="app_name">Tomato</string>
+    <string name="app_name">Zon</string>
     <string name="black_theme">純黑主題</string>
     <string name="black_theme_desc">使用純黑的深色主題</string>
     <string name="break_">休息</string>
@@ -61,12 +61,10 @@
     <string name="sound">聲音</string>
     <string name="dnd">請勿打擾</string>
     <string name="dnd_desc">執行專注計時器時自動開啟請勿打擾模式</string>
-    <string name="app_name_plus">Tomato+</string>
-    <string name="get_plus">取得 Tomato+</string>
+    <string name="app_name_plus">Zon+</string>
+    <string name="get_plus">取得 Zon+</string>
     <string name="dynamic_color">動態配色</string>
     <string name="dynamic_color_desc">根據桌布自動調整主題顏色</string>
-    <string name="tomato_foss">Tomato FOSS</string>
-    <string name="tomato_foss_desc">此版本已解鎖所有功能。若這個 App 對你有所幫助，歡迎至 %1$s 贊助支持開發者。</string>
     <string name="language">語言</string>
     <string name="choose_language">選擇語言</string>
     <string name="rate_on_google_play">在 Google Play 上評分</string>
@@ -77,7 +75,6 @@
     <string name="minutes_format">%1$d分鐘</string>
     <string name="about">關於</string>
         <string name="rate_on_google_play_desc">喜歡這個 App 嗎？寫個評論吧！</string>
-        <string name="tomato_plus_desc">使用 Tomato+ 進一步自訂</string>
     <string name="license">授權條款</string>
     <string name="media_volume_for_alarm">耳機模式</string>
     <string name="media_volume_for_alarm_desc">僅透過耳機播放。若耳機斷線，鬧鐘將以媒體音量從喇叭播放。</string>
@@ -106,5 +103,4 @@
     <string name="reset_data_dialog_title">要重設所有統計資料嗎？</string>
     <string name="today_widget_desc">今日專注統計</string>
     <string name="history_widget_desc">查看過去幾天的專注時長圖表。顯示的天數會依小工具大小而有所不同。</string>
-    <string name="dnd_permission_message">啟用「%1$s」的權限</string>
 </resources>

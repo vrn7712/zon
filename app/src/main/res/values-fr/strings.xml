@@ -62,16 +62,13 @@
     <string name="dnd_desc">Activer le mode ne pas déranger pendant un minuteur de concentration</string>
     <string name="dynamic_color">Couleur dynamique</string>
     <string name="dynamic_color_desc">Adapter les couleurs à celles de votre fond d\'écran</string>
-    <string name="tomato_foss_desc">Toutes les fonctionnalités sont déverrouillées dans cette version. Si mon application a fait une différence dans votre vie, veuillez envisager de me soutenir en faisant un don sur %1$s.</string>
-    <string name="app_name_plus">Tomato+</string>
-    <string name="get_plus">Obtenir Tomato+</string>
-    <string name="tomato_foss">Tomato FOSS</string>
+    <string name="app_name_plus">Zon+</string>
+    <string name="get_plus">Obtenir Zon+</string>
     <string name="language">Langue</string>
     <string name="choose_language">Choisissez la langue</string>
     <string name="rate_on_google_play">Noter sur Google Play</string>
     <string name="selected">Selectionné</string>
         <string name="timer_settings_reset_info">Réinitialiser le timer pour pouvoir changer les paramètres</string>
-        <string name="tomato_plus_desc">Personnalisez plus avec Tomato+</string>
     <string name="about">A propos</string>
         <string name="rate_on_google_play_desc">Vous avez aimé l\'appli? Écrivez un avis!</string>
     <string name="license">Licence</string>
@@ -102,7 +99,6 @@
     <string name="focus_history_heatmap">Carte thermique de la concentration</string>
     <string name="today_widget_desc">Stats de concentration de la journée</string>
     <string name="history_widget_desc">Afficher un graphique des durées de concentration des derniers jours. Le nombre de jours affichés dépend de la taille du widget.</string>
-    <string name="dnd_permission_message">Autoriser l\'accès pour \"%1$s\"</string>
     <string name="minutes_format">%1$dm</string>
     <string name="hours_and_minutes_format">%1$dh %2$dm</string>
     <string name="hours_format">%1$dh</string>

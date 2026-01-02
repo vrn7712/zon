@@ -42,9 +42,10 @@ fun ManualLogDialog(
     var focusMinutes by remember { mutableIntStateOf(25) }
     var sessions by remember { mutableIntStateOf(1) }
     
-    // Validation
+    // Validation - max 18 hours (1080 minutes) total
+    val totalMinutes = focusMinutes * sessions
     val isValid = remember(focusMinutes, sessions) {
-        focusMinutes in 1..480 && sessions in 1..20
+        focusMinutes in 5..240 && sessions in 1..10 && totalMinutes <= 1080
     }
 
     AlertDialog(
@@ -90,15 +91,15 @@ fun ManualLogDialog(
                     Slider(
                         value = focusMinutes.toFloat(),
                         onValueChange = { focusMinutes = it.toInt() },
-                        valueRange = 5f..240f,
+                        valueRange = 5f..240f, // Max 4 hours per session
                         steps = 46, // Every 5 minutes
                         modifier = Modifier.fillMaxWidth()
                     )
                     
                     Text(
-                        text = "How long did you focus?",
+                        text = if (totalMinutes > 1080) "Max 18 hours total" else "How long did you focus?",
                         style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                        color = if (totalMinutes > 1080) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
                 

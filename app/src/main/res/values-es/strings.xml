@@ -57,7 +57,7 @@
     <string name="durations">Duraciones</string>
     <string name="sound">Sonido</string>
     <string name="dnd">No Molestar</string>
-    <string name="get_plus">Obtener Tomato+</string>
+    <string name="get_plus">Obtener Zon+</string>
     <string name="dynamic_color">Color dinámico</string>
     <string name="dynamic_color_desc">Adapta los colores del tema a tu fondo de pantalla</string>
     <string name="language">Idioma</string>
@@ -66,7 +66,6 @@
         <string name="always_on_display">Always On Display</string>
     <string name="always_on_display_desc">Toca en cualquier lugar mientras ves el temporizador para cambiar al modo AOD</string>
     <string name="dnd_desc">Activar NM al ejecutar un temporizador de concentración</string>
-    <string name="tomato_foss_desc">Todas las funciones están desbloqueadas en esta versión. Si mi aplicación ha marcado una diferencia en tu vida, por favor, considera apoyarme donando en %1$s.</string>
     <string name="rate_on_google_play">Valorar en Google Play</string>
     <string name="timer_settings_reset_info">Reinicia el temporizador para cambiar la configuración</string>
     <string name="hours_and_minutes_format">%1$dh %2$dm</string>
@@ -74,7 +73,6 @@
     <string name="minutes_format">%1$dm</string>
     <string name="about">Acerca de</string>
         <string name="rate_on_google_play_desc">¿Te ha gustado la aplicación? ¡Escribe una reseña!</string>
-        <string name="tomato_plus_desc">Personaliza aún más con Tomato+</string>
     <string name="license">Licencia</string>
     <string name="media_volume_for_alarm">Modo auriculares</string>
     <string name="media_volume_for_alarm_desc">Solo suena en los auriculares. Si se desconectan los auriculares, la alarma suena a través del altavoz al volumen multimedia.</string>
@@ -103,5 +101,4 @@
     <string name="back">Atrás</string>
     <string name="today_widget_desc">Estadísticas de concentración de hoy</string>
     <string name="history_widget_desc">Ver un gráfico con la duración de la concentración de los últimos días. El número de días que se muestra depende del tamaño del widget.</string>
-    <string name="dnd_permission_message">Habilitar permiso para \"%1$s\"</string>
 </resources>

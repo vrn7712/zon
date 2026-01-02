@@ -170,27 +170,6 @@ fun AboutScreen(
                         }
                         Spacer(Modifier.weight(1f))
                         Row(horizontalArrangement = Arrangement.spacedBy(2.dp)) {
-                            // Removed Discord/GitHub project links as requested, or keep them?
-                            // User said "keep the social buttons but remove the respective links" - referring to the author buttons.
-                            // The buttons at the top are for the PROJECt (Discord, GitHub).
-                            // User instruction: "Remove BuyMeACoffee. Remove Help Translate tomato. Also for now keep the social buttons but remove the respective links"
-                            // Use judgment. If changing author to Vrushal, maybe project links should point elsewhere or be removed.
-                            // I'll leave the Project links for now as they weren't explicitly targeted, usually "social buttons" refers to the row below the name.
-                            // But I will update the Name below.
-                            
-                            FilledTonalIconButton(
-                                onClick = {
-                                    uriHandler.openUri("https://discord.gg/example")
-                                },
-                                shapes = IconButtonDefaults.shapes()
-                            ) {
-                                Icon(
-                                    painterResource(R.drawable.discord),
-                                    contentDescription = "Discord",
-                                    modifier = Modifier.size(24.dp)
-                                )
-                            }
-
                             FilledTonalIconButton(
                                 onClick = { uriHandler.openUri("https://github.com/vrn7712/Zon") },
                                 shapes = IconButtonDefaults.shapes()

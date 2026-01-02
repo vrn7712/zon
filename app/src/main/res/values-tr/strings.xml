@@ -60,11 +60,9 @@
     <string name="sound">Ses</string>
     <string name="dnd">Rahatsız Etmeyin</string>
     <string name="dnd_desc">Odaklanma sayacı çalışırken RE\'yi aç</string>
-    <string name="get_plus">Tomato+ edin</string>
+    <string name="get_plus">Zon+ edin</string>
     <string name="dynamic_color">Dinamik renk</string>
     <string name="dynamic_color_desc">Tema renklerini duvar kağıdınızdan alın</string>
-    <string name="tomato_foss">Tomato FOSS</string>
-    <string name="tomato_foss_desc">Bu sürümde tüm özelliklerin kilidi açılmıştır. Uygulamam hayatınızda bir fark yarattıysa, lütfen %1$s üzerinden bağış yaparak beni desteklemeyi düşünün.</string>
     <string name="language">Dil</string>
     <string name="choose_language">Dil seç</string>
     <string name="rate_on_google_play">Google Play\'de değerlendir</string>
@@ -75,7 +73,6 @@
     <string name="minutes_format">%1$ddk</string>
     <string name="about">Hakkında</string>
         <string name="rate_on_google_play_desc">Uygulamayı beğendinizmi? Bir yorum bırakın!</string>
-        <string name="tomato_plus_desc">Tomato+ ile daha fazla özelleştirin</string>
     <string name="license">Lisans</string>
     <string name="media_volume_for_alarm">Kulaklık modu</string>
     <string name="media_volume_for_alarm_desc">Sadece kulaklıktan oynatır. Eğer kulaklık devre dışı ise alarmı direkt medya sesi düzeyinde hoparlörden oynatır.</string>
@@ -104,7 +101,5 @@
     <string name="back">Geri</string>
     <string name="today_widget_desc">Bugünün odaklanma istatistikleri</string>
     <string name="history_widget_desc">Geçmiş birkaç günlerdeki odaklanma sürelerine dair bir grafik görün. Görüntülenen gün sayısı, widget\'ın boyutuna bağlıdır.</string>
-    <string name="dnd_permission_message">\"%1$s\" için yetkileri aktifleştirin</string>
     <string name="lifetime">Hayat boyu</string>
-    <string name="total">toplam</string>
 </resources>

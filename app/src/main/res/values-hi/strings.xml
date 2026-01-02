@@ -60,10 +60,9 @@
     <string name="durations">ड्यूरेशन</string>
     <string name="dnd">डू नॉट डिस्टर्ब</string>
     <string name="dnd_desc">फोकस टाइमर चलते समय \'डू नॉट डिस्टर्ब\' मोड ऑन करें</string>
-    <string name="get_plus">Tomato+ लें</string>
+    <string name="get_plus">Zon+ लें</string>
     <string name="dynamic_color">डायनामिक रंग</string>
     <string name="dynamic_color_desc">अपने वॉलपेपर से रंग चुनें</string>
-    <string name="tomato_foss_desc">इस वर्जन में सभी फीचर अनलॉक हैं। अगर मेरे ऐप ने आपके लाइफ में कोई अंतर लाया है, तो प्लीज %1$s पर डोनेशन देकर मेरी मदद करें।</string>
     <string name="language">भाषा</string>
     <string name="choose_language">भाषा चुनें</string>
     <string name="rate_on_google_play">Google Play पर रेटिंग दें</string>
@@ -74,7 +73,6 @@
     <string name="minutes_format">%1$dमि</string>
     <string name="about">ऐप के बारे में</string>
         <string name="rate_on_google_play_desc">ऐप पसंद आया? रिव्यू लिखें!</string>
-        <string name="tomato_plus_desc">Tomato+ के साथ और कस्टमाइज करें</string>
     <string name="license">लाइसेंस</string>
     <string name="media_volume_for_alarm">हेडफोन मोड</string>
     <string name="media_volume_for_alarm_desc">अलार्म सिर्फ हेडफोन में बजेगा। अगर हेडफोन कनेक्ट नहीं हैं, तो अलार्म मीडिया वॉल्यूम पर स्पीकर से बजेगा।</string>
@@ -103,7 +101,5 @@
     <string name="reset_data_dialog_title">सभी आँकड़ों को रीसेट करें?</string>
     <string name="today_widget_desc">आज के फोकस आंकड़े</string>
     <string name="history_widget_desc">पिछले कुछ दिनों के फोकस ड्यूरेशन का चार्ट देखें। दिखाए जाने वाले दिनों की संख्या विजेट के साइज़ पर निर्भर करती है।</string>
-    <string name="dnd_permission_message">\"%1$s\" के लिए परमिशन चालू करें</string>
     <string name="lifetime">लाइफटाइम</string>
-    <string name="total">कुल</string>
 </resources>

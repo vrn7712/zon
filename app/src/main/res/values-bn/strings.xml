@@ -25,7 +25,7 @@
     <string name="exit">বের হন</string>
     <string name="focus">মনোযোগ দিন</string>
     <string name="focus_per_day_avg">দৈনিক ফোকাস (গড়ে)</string>
-    <string name="get_plus">Tomato+ নিন</string>
+    <string name="get_plus">Zon+ নিন</string>
         <string name="language">ভাষা</string>
     <string name="last_month">গত মাস</string>
     <string name="last_week">গত সপ্তাহ</string>
@@ -64,14 +64,12 @@
     <string name="timer_session_count">%2$d এর %1$d</string>
     <string name="timer_settings_reset_info">সেটিংস পরিবর্তন করতে টাইমার রিসেট দিন</string>
     <string name="today">আজকে</string>
-    <string name="tomato_foss_desc">সব ফিচার এই ভার্সন এ উন্মুক্ত। আমার অ্যাপ আপনার জীবনে পরিবর্তন এনে থাকলে, আমাকে %1$s এ অনুদান দিয়ে সমর্থন করুন</string>
     <string name="up_next">এরপর</string>
     <string name="up_next_notification">এরপর: %1$s (%2$s)</string>
     <string name="vibrate">ভাইব্রেশন</string>
     <string name="vibrate_desc">টাইমার শেষ হলে ভাইব্রেট করবে</string>
     <string name="about">এবাউট</string>
         <string name="rate_on_google_play_desc">অ্যাপটি পছন্দ হয়েছে? রিভিউ দিন!</string>
-        <string name="tomato_plus_desc">Tomato+ দিয়ে আরো কাস্টোমাইজ করুন</string>
     <string name="license">লাইসেন্স</string>
     <string name="media_volume_for_alarm">হেডফোন মোড</string>
     <string name="media_volume_for_alarm_desc">শুধুমাত্র হেডফোন এ বাজে। হেডফোন ডিসকানেক্টেড হলে, স্পিকার দিয়ে এলার্ম বাজে মিডিয়া ভলিউম এ</string>
