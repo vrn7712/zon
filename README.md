@@ -5,8 +5,8 @@
 <h1 align="center">Zon</h1>
 
 <p align="center">
-  <b>A minimalist Pomodoro timer for Android</b><br>
-  <i>Stay focused. Track progress. Achieve more.</i>
+  <b>Enter Your Zone.</b><br>
+  <i>A minimalist Pomodoro timer for Android</i>
 </p>
 
 <p align="center">
@@ -91,6 +91,58 @@
 - Completely offline, no ads
 
 </details>
+
+---
+
+## 🆚 Why Zon?
+
+<table>
+<tr>
+<th>Feature</th>
+<th align="center">Zon</th>
+<th align="center">Other Apps</th>
+</tr>
+<tr>
+<td>🚫 <b>No Ads</b></td>
+<td align="center">✅</td>
+<td align="center">❌</td>
+</tr>
+<tr>
+<td>📵 <b>Works Offline</b></td>
+<td align="center">✅</td>
+<td align="center">❌</td>
+</tr>
+<tr>
+<td>🔓 <b>Open Source</b></td>
+<td align="center">✅</td>
+<td align="center">❌</td>
+</tr>
+<tr>
+<td>💰 <b>All Features Free</b></td>
+<td align="center">✅</td>
+<td align="center">❌</td>
+</tr>
+<tr>
+<td>🔒 <b>Privacy Focused</b></td>
+<td align="center">✅</td>
+<td align="center">❌</td>
+</tr>
+<tr>
+<td>📱 <b>Home Screen Widgets</b></td>
+<td align="center">✅</td>
+<td align="center">⚠️</td>
+</tr>
+<tr>
+<td>🎵 <b>Focus Sounds</b></td>
+<td align="center">✅</td>
+<td align="center">⚠️</td>
+</tr>
+<tr>
+<td>✅ <b>Built-in Tasks</b></td>
+<td align="center">✅</td>
+<td align="center">⚠️</td>
+</tr>
+</table>
 
 ---
 
